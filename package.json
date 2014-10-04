@@ -1,0 +1,29 @@
+{
+  "name": "duo-coffee",
+  "version": "1.0.0",
+  "description": "CoffeeScript plugin for Duo",
+  "license": "MIT",
+  "repository": "tomshen/duo-coffee",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/test.coffee --compilers coffee:coffee-script/register"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "coffee",
+    "coffeescript",
+    "duo",
+    "duoplugin"
+  ],
+  "dependencies": {
+    "coffee-script": "^1.8.0"
+  },
+  "devDependencies": {
+    "duo": "^0.8.4",
+    "mocha": "^1.21.4"
+  }
+}
